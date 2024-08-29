@@ -1,6 +1,8 @@
 ## Designli technical test
 
-This is a php test using laravel using mail-parser to parse the content of an email with attachments, to run the project create on the root a `.env` file (you can copy the content of `.env.example`). then run:
+This is a php test using laravel using mail-parser to parse the content of an email with attachments, to run the project create on the root a `.env` file (you can copy the content of `.env.example`).
+
+This project is using the package php-mime-mail-parser (https://github.com/php-mime-mail-parser) so make sure you have the mailparse extension (http://php.net/manual/en/book.mailparse.php) properly installed. The command line `php -m | grep mailparse` needs to return "mailparse". Then run the next commands:
 
 
 ```bash
